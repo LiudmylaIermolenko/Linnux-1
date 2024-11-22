@@ -1,0 +1,24 @@
+973  touch test.txt
+  974  chmod u+x test.txt
+  975  ls -la
+  976  chmod u+x test.txt
+  977  ls -la
+  978  chmod u+x,o-r test.txt
+  979  ls -la
+  980  ps -ef >> ps.txt
+  981   ps -ef | tail +2 | wc -l
+  982   ps -ef | tail +2
+  983   ps -ef | tail -2
+  984   ps -ef | tail +2
+  985  tail --help
+  986   ps -ef | tail +2
+  987   ps -ef | tail +1
+  988   ps -ef | tail -n +2
+  989   ps -ef | tail -n +2 | wc -l >> ps.txt
+  990  cat ps.txt
+  991  history
+  992  exit
+  993  cd /opt/081024_morning/lussiyer/
+  994  ps -ef |tail -n +2 | wc -l
+  995  ps -ef |tail -n +2 | wc -l >> ps.txt
+  996  ps -ef |tail -n +2
